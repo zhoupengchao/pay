@@ -7,6 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class TestpayaApplication {
 
     public static void main(String[] args) {
+        System.out.println("args = [编写分支内容]");
         SpringApplication.run(TestpayaApplication.class, args);
     }
 
